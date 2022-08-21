@@ -5,7 +5,7 @@
 - [ ] Starters
     - [X] Grass
     - [X] Fire
-    - [ ] Water
+    - [O] Water
 - [ ] Bird
 - [ ] Bug
 - [ ] Secondary Bug
