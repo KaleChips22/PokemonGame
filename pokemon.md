@@ -1,5 +1,7 @@
 # Pokemon
 
+*(Count: 60)*
+
 - Starters
     - Grass
     - Fire
@@ -22,7 +24,7 @@
 - Pseudo Legends
 - "Magikarp"-type pokemon
 - Common Grass thing
-- Marine Invertibrates 
+- Marine Invertibrates
 - Multiform-Pokemon
 - Fake Pseudo
 - Ghost
