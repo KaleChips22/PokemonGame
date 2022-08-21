@@ -56,4 +56,21 @@ Notes:
     > and the neck is now a tree instead of broccoli  
 
 ### Fire
+Notes:
+> Based on a Snake (and fire _duhh_)  
+> Some name ideas:  
+> Boash  
+> Pyraconda  
+> Vipyre  
+> Flamba  
+1. Boash | The Ash Pokemon
+    > Name sounds kinda like a basic form  
+    > Looks like a red snake, with a small flame trail
+2. Vipyre | The Viper Pokemon
+    > Less cute, flaming fangs, larger body  
+    > grows a small, curved horn on its forehead  
+3. Pyraconda | The Fire Snake Pokemon
+    > The forehead spike is fully formed  
+    > Giant, coiled body, with a much larger flame trail along it's back
+
 ### Water
