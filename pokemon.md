@@ -44,7 +44,7 @@ Notes:
 > Based on a Brachiosaurus and broccoli  
 > Neck starts small, but gets longer  
 > Bracholeaf / Bracholi (It's just so cute as a name)  
-1. Brachisprout  |  The sprout Pokemon
+1. Brachisprout  |  The Sprout Pokemon
     > Normal terapod body  
     > Neck has a bud-thing as a necklace  
 2. Bracholi      |  The Broccoli Pokemon
@@ -54,5 +54,6 @@ Notes:
     > Play on words for the name (hehe)  
     > Looks like the middle evolution, but bigger,  
     > and the neck is now a tree instead of broccoli  
+
 ### Fire
 ### Water
