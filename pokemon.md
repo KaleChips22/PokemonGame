@@ -38,3 +38,5 @@
 ## Starters
 
 ### Grass
+### Fire
+### Water
