@@ -41,13 +41,15 @@
 
 ### Grass
 Notes:
-> Based on a Brachiosaurus  
+> Based on a Brachiosaurus and broccoli  
 > Neck starts small, but gets longer  
-> Bracholeaf / Bracholee (It's just so cute as a name)  
+> Bracholeaf / Bracholi (It's just so cute as a name)  
 1. Bracholi
     > Normal terapod body  
-    > Neck is brocoli  
+    > Neck is broccoli  
 2. 
+    > Neck gets longer  
+    > gans more build ig
 3. 
 ### Fire
 ### Water
