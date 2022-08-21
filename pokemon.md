@@ -1,6 +1,6 @@
 # Pokemon
 
-*(Count: 60)*
+*Complete: 6/60*
 
 - Starters
     - Grass
