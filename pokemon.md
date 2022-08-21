@@ -40,5 +40,11 @@
 ## Starters
 
 ### Grass
+Notes:
+> Based on a Brachiosaurus
+> Neck starts small, but gets longer
+1. 
+2. 
+3. 
 ### Fire
 ### Water
