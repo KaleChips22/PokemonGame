@@ -44,7 +44,7 @@ Notes:
 > Based on a Brachiosaurus  
 > Neck starts small, but gets longer  
 > Bracholeaf / Bracholee (It's just so cute as a name)  
-1. Bracholee
+1. Bracholi
     > Normal terapod body  
     > Neck is brocoli  
 2. 
