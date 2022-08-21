@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Index</a>
+        <a href="encounter.html">Encounter</a>
+        <a href="collection.html">Collection</a>
+    </header>
+    <div id="container">
+        <div class="encounter" style="--bg-color: red;" id="pokemon">
+            <image class="pokemon" id="image" src="" />
+            <div class="text" id="text"></div>
+        </div>
+        <div class="buttons">
+            <button onClick="prev()">Previous</button>
+            <button onClick="transfer()">Transfer</button>
+            <button onClick="evolve(this)">Evolve</button>
+            <button onClick="next()">Next</button>
+        </div>
+    </div>
+    <script src="pokemonList.js" id="script"></script>
+    <script src="collection.js" id="script"></script>
+</body>
+</html>
