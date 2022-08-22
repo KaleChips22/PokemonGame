@@ -39,7 +39,6 @@ function loadRandomPokemon() {
         encounterable = false
     while (!encounterable) {
         randomPokemon = pokemon[Math.floor(Math.random() * pokemon.length)]
-        console.log(randomPokemon)
         if (randomPokemon.routes.includes(currentRoute)) {
             encounterable = true
         }
