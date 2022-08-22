@@ -46,7 +46,7 @@ function loadRandomPokemon() {
         }
     }
 
-    setPokemon(pokemonElement, randomPokemon.name, randomPokemon.color, randomPokemon.shinyColor, randomPokemon.fakemon, 1, 100)
+    setPokemon(pokemonElement, randomPokemon.name, randomPokemon.color, randomPokemon.shinyColor, randomPokemon.fakemon, 1, 30)
     
     currentPokemon = randomPokemon
 }
