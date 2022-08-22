@@ -1,7 +1,7 @@
 const pokemon = [
-    p('Brachisprout', 'green', 'salmon', true, ['test', 'starter-a'], true),
-    p('Bracholi', 'green', 'salmon', true, ['test'], true),
-    p('Brachioforest', 'green', 'salmon', false, ['test'], true),
+    p('Brachisprout', 'green', 'pink', true, ['test', 'starter-a'], true),
+    p('Bracholi', 'green', 'pink', true, ['test'], true),
+    p('Brachioforest', 'green', 'pink', false, ['test'], true),
     p('Boash', 'red', 'darkgray', true, ['test', 'starter-b'], true),
     p('Vipyre', 'red', 'darkgray', true, ['test'], true),
     p('Pyraconda', 'red', 'darkgray', false, ['test'], true),
