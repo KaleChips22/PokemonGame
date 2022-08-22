@@ -23,12 +23,14 @@ function rollShiny(rolls = 1, odds = 4096) {
 function setPokemon(element, pokemon, color, shinyColor, rolls = 1, odds = 4096) {
     if (rollShiny(rolls, odds)) {
         element.style.setProperty('--bg-color', shinyColor)
-        element.children[0].src = `https://pokemon.gishan.cc/static/i/pokemon/shiny-${pokemon.toLowerCase()}.png`
+        element.children[0].src = fakemon ? `imgs/fakemon/shiny-${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/shiny-${pokemon.toLowerCase()}.png`
+        element.children[0].alt = pokemon + '*'
         element.children[1].innerText = `${pokemon}*`
         currentShiny = true
     } else {
         element.style.setProperty('--bg-color', color)
-        element.children[0].src = `https://pokemon.gishan.cc/static/i/pokemon/${pokemon.toLowerCase()}.png`
+        element.children[0].src = fakemon ? `imgs/fakemon/${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/${pokemon.toLowerCase()}.png`
+        element.children[0].alt = pokemon
         element.children[1].innerText = pokemon
         currentShiny = false
     }

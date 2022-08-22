@@ -13,10 +13,12 @@ function setPokemon(index, element) {
     if (collection[currentIndex].shiny) {
         element.style.setProperty('--bg-color', shinyColor)
         element.children[0].src = fakemon ? `imgs/fakemon/shiny-${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/shiny-${pokemon.toLowerCase()}.png`
+        element.children[0].alt = pokemon + '*'
         element.children[1].innerText = `${pokemon}*`
     } else {
         element.style.setProperty('--bg-color', color)
         element.children[0].src = fakemon ? `imgs/fakemon/${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/${pokemon.toLowerCase()}.png`
+        element.children[0].alt = pokemon
         element.children[1].innerText = pokemon
     }
 }
