@@ -1,11 +1,11 @@
 # Pokemon
 
-*Complete: 6/60*
+*Complete: 9/60*
 
-- [ ] Starters
+- [X] Starters
     - [X] Grass
     - [X] Fire
-    - [ ] Water
+    - [X] Water
 - [ ] Bird
 - [ ] Bug
 - [ ] Secondary Bug
@@ -47,13 +47,16 @@ Notes:
 1. Brachisprout  |  The Sprout Pokemon
     > Normal terapod body  
     > Neck has a bud-thing as a necklace  
+    > Grass  
 2. Bracholi      |  The Broccoli Pokemon
     > Normal terapod body  
     > Neck is broccoli  
+    > Grass  
 3. Brachioforest |  The Forest Pokemon 
     > Play on words for the name (hehe)  
     > Looks like the middle evolution, but bigger,  
     > and the neck is now a tree instead of broccoli  
+    > Grass  
 
 ### Fire
 Notes:
@@ -65,12 +68,32 @@ Notes:
 > Flamba  
 1. Boash | The Ash Pokemon
     > Name sounds kinda like a basic form  
-    > Looks like a red snake, with a small flame trail
+    > Looks like a red snake, with a small flame trail  
+    > Fire  
 2. Vipyre | The Viper Pokemon
     > Less cute, flaming fangs, larger body  
     > grows a small, curved horn on its forehead  
+    > Fire  
 3. Pyraconda | The Fire Snake Pokemon
     > The forehead spike is fully formed  
-    > Giant, coiled body, with a much larger flame trail along it's back
+    > Giant, coiled body, with a much larger flame trail along it's back  
+    > Fire
 
 ### Water
+Notes:
+> Based on a shark, and blades  
+1. Swark | The Shark Pokemon
+    > Looks like a cute little shark,  
+    > The big fin on top is a blade  
+    > Water / Steel
+2. Finnife | The Knife Pokemon
+    > Shark gets Bigger, bigger fins  
+    > Bigger blade on top  
+    > Water / Steel  
+3. Sharkut | The Slashing Shark Pokemon
+    > Shark getss bigger, more blades  
+    > Looks cool  
+    > Water / Steel  
+
+
+## Bird Pokemon
