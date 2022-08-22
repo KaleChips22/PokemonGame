@@ -7,15 +7,16 @@ currentIndex = 0
 function setPokemon(index, element) {
     let shinyColor = collection[index].shinyColor,
         color = collection[index].color,
-        pokemon = collection[index].name
+        pokemon = collection[index].name,
+        fakemon = collection[index].fakemon
 
     if (collection[currentIndex].shiny) {
         element.style.setProperty('--bg-color', shinyColor)
-        element.children[0].src = `https://pokemon.gishan.cc/static/i/pokemon/shiny-${pokemon.toLowerCase()}.png`
+        element.children[0].src = fakemon ? `imgs/fakemon/shiny-${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/shiny-${pokemon.toLowerCase()}.png`
         element.children[1].innerText = `${pokemon}*`
     } else {
         element.style.setProperty('--bg-color', color)
-        element.children[0].src = `https://pokemon.gishan.cc/static/i/pokemon/${pokemon.toLowerCase()}.png`
+        element.children[0].src = fakemon ? `imgs/fakemon/${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/${pokemon.toLowerCase()}.png`
         element.children[1].innerText = pokemon
     }
 }
