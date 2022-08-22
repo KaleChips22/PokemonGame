@@ -20,7 +20,7 @@ function rollShiny(rolls = 1, odds = 4096) {
     return shiny
 }
 
-function setPokemon(element, pokemon, color, shinyColor, rolls = 1, odds = 4096) {
+function setPokemon(element, pokemon, color, shinyColor, fakemon, rolls = 1, odds = 4096) {
     if (rollShiny(rolls, odds)) {
         element.style.setProperty('--bg-color', shinyColor)
         element.children[0].src = fakemon ? `imgs/fakemon/shiny-${pokemon.toLowerCase()}.png` : `https://pokemon.gishan.cc/static/i/pokemon/shiny-${pokemon.toLowerCase()}.png`
@@ -46,7 +46,7 @@ function loadRandomPokemon() {
         }
     }
 
-    setPokemon(pokemonElement, randomPokemon.name, randomPokemon.color, randomPokemon.shinyColor, 1, 100)
+    setPokemon(pokemonElement, randomPokemon.name, randomPokemon.color, randomPokemon.shinyColor, randomPokemon.fakemon, 1, 100)
     
     currentPokemon = randomPokemon
 }
