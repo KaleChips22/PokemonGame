@@ -6,6 +6,9 @@ let currentPokemon,
 let collection = JSON.parse(window.localStorage.getItem('collection')) || [],
     currentRoute = JSON.parse(window.localStorage.getItem('route')) || 'test'
 
+
+let currentBattler = collection[0]
+
 function rollShiny(rolls = 1, odds = 4096) {
     let shiny = false
 
@@ -69,6 +72,14 @@ function fight(elem) {
     const buttons = elem.parentNode
 
     console.log(buttons)
+
+    let html = ''
+    currentBattler.moves.forEach(move => {
+        console.log(move)
+        html += `<button onClick='attack(${JSON.stringify(move)})'>${move.name}</button>`
+    })
+
+    buttons.innerHTML = html
 }
 
 function swap() {
@@ -81,4 +92,37 @@ function bag() {
 
 function run() {
     return
+}
+
+function attack(move) {
+    let name = move.name,
+        dammage = move.dammage,
+        type = move.type,
+        accuracy = move.accuracy
+    
+    alert(`${currentBattler.name} used ${name}!`)
+
+    let effective = checkEffective(type, currentPokemon.types)
+
+    switch (effective) {
+        default:
+            break
+        case 0:
+            alert('No effect')
+            break
+        case 0.25:
+            alert('Not very effective')
+            break
+        case .5:
+            alert('Not very effective')
+            break
+        case 2:
+            alert('Super effective')
+            break
+        case 4:
+            alert('Super effective')
+            break
+    }
+
+    dammage *= effective
 }

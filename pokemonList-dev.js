@@ -31,3 +31,49 @@ function p(name, color, shinyColor, canEvolve, routes, fakemon) {
         fakemon
     }
 }
+
+function checkEffective(typeA, types) {
+    var effective = 1
+
+    types.forEach(typeB => {
+        if (typeA == 'normal') {
+            if (typeB == 'rock') effective *= .5
+            if (typeB == 'ghost') effective *= 0
+            if (typeB == 'steel') effective *= .5
+        } else if (typeA == 'fire') {
+            if (typeB == 'fire') effective *= .5
+            if (typeB == 'water') effective *= .5
+            if (typeB == 'grass') effective *= 2
+            if (typeB == 'ice') effective *= 2
+            if (typeB == 'bug') effective *= 2
+            if (typeB == 'rock') effective *= .5
+            if (typeB == 'dragon') effective *= .5
+            if (typeB == 'steel') effective *= 2
+        }  else if (typeA == 'water') {
+            if (typeB == 'fire') effective *= 2
+            if (typeB == 'water') effective *= .5
+            if (typeB == 'grass') effective *= .5
+            if (typeB == 'ground') effective *= 2
+            if (typeB == 'rock') effective *= 2
+            if (typeB == 'dragon') effective *= .5
+        } else if (typeA == 'electric') {
+            if (typeB == 'water') effective *= 2
+            if (typeB == 'electric') effective *= .5
+            if (typeB == 'grass') effective *= .5
+            if (typeB == 'ground') effective *= 0
+            if (typeB == 'flying') effective *= 2
+            if (typeB == 'dragon') effective *= .5
+        } else if (typeA == 'grass') {
+            if (typeB == 'fire') effective *= .5
+            if (typeB == 'water') effective *= 2
+            if (typeB == 'grass') effective *= .5
+            if (typeB == 'poison') effective *= .5
+            if (typeB == 'ground') effective *= 2
+            if (typeB == 'flying') effective *= .5
+            if (typeB == 'bug') effective *= .5
+            if (typeB == 'rock') effective *= 2
+            if (typeB == 'dragon') effective *= .5
+            if (typeB == 'steel') effective *= .5
+        }
+    })
+}
