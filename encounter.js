@@ -71,7 +71,7 @@ function fight(elem) {
     console.log(buttons)
 }
 
-function pokemon() {
+function swap() {
     return
 }
 
