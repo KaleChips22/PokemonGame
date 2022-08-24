@@ -66,7 +66,7 @@ function catchPokemon() {
 }
 
 function fight(elem) {
-    const buttons = elem.parent
+    const buttons = elem.parentNode
 
     console.log(buttons)
 }
