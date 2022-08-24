@@ -64,6 +64,27 @@ function checkEffective(typeA, types) {
             if (typeB == 'rock') effective *= 2
             if (typeB == 'dragon') effective *= .5
             if (typeB == 'steel') effective *= .5
+        } else if (typeA == 'ice') {
+            if (typeB == 'fire') effective *= .5
+            if (typeB == 'water') effective *= 2
+            if (typeB == 'grass') effective *= 2
+            if (typeB == 'ice') effective *= .5
+            if (typeB == 'ground') effective *= 2
+            if (typeB == 'flying') effective *= 2
+            if (typeB == 'gragon') effective *= 2
+            if (typeB == 'steel') effective *= .5
+        } else if (typeA == 'fighting') {
+            if (typeB == 'normal') effective *= 2
+            if (typeB == 'ice') effective *= 2
+            if (typeB == 'poison') effective *= .5
+            if (typeB == 'flying') effective *= .5
+            if (typeB == 'psychic') effective *= .5
+            if (typeB == 'bug') effective *= .5
+            if (typeB == 'rock') effective *= 2
+            if (typeB == 'ghost') effective *= 0
+            if (typeB == 'dark') effective *= 2
+            if (typeB == 'steel') effective *= 2
+            if (typeB == 'fairy') effective *= .5
         }
     })
 }
