@@ -64,3 +64,21 @@ function catchPokemon() {
 
     loadRandomPokemon()
 }
+
+function fight(elem) {
+    const buttons = elem.parent
+
+    console.log(buttons)
+}
+
+function pokemon() {
+    return
+}
+
+function bag() {
+    return
+}
+
+function run() {
+    return
+}
