@@ -91,6 +91,7 @@ function bag() {
 }
 
 function run() {
+    window.location.href = 'index.html'
     return
 }
 
